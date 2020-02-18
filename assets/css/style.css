@@ -52,6 +52,7 @@ main{width: 100%}
 }
 
 #header-h2 {
+    line-height: 20px;
     font-size: 15px;
     margin-left: 15px;
     font-weight: lighter;
@@ -69,13 +70,13 @@ main{width: 100%}
 }
 
 /* ANIMATION DES FLIEGENDEN MANNES */
-@keyframes move{
-    from {top: 0px;}
-    to   {top: 5000px}
+@keyframes jumpy{
+    from {top: 0vh;}
+    to   {top: 10vh;}
 }
 
-#jumpy{
-    animation: move 1s infinite;
+#Seite-1-Bilder-Headline{
+    animation: jumpy 2s infinite;
 }
 
 /* ANIMATION ENDE */
@@ -234,6 +235,12 @@ margin-left: 15px;
 font-weight: lighter;
 line-height: 40px;
 }
+
+/* Seite 7 bis Seite 11 allgemein */
+.IchbinMitte{
+    position: center/cover;
+}
+
 
 /* Seite 7 */
 #Seite-7{
@@ -473,11 +480,13 @@ line-height: 40px;
 /* FOOTER */
 
 footer{
+    margin-top: 8%;
     font-size: 25px;
-    height: 10vh;
+    height: 15vh;
     font-weight: lighter;
 }
 
 footer p {
+    margin-top: 2%;
     margin-left: 10%;
 }
