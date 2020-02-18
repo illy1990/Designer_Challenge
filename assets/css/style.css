@@ -59,7 +59,7 @@ main{width: 100%}
 
 #Seite-1-Bilder-Headline{
     display: inline-block;
-    background: url(assets/img/ilustracion1.png) center/cover no-repeat;
+    background: url(../img/ilustracion1.png) center/cover no-repeat;
     max-width: 55%;
     margin: 0;
     padding: 0;
@@ -109,7 +109,7 @@ main{width: 100%}
 /* SEITE 2 */
 #Seite-2 {
     height: 80vh;
-    background: url(assets/img/images.jpg) center/cover no-repeat;
+    background: url(../img/images.jpg) center/cover no-repeat;
     display: flex;
     align-self: center;
 }
