@@ -1,1 +1,129 @@
-h1 {color:pink}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+/* #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000 */
+
+/* ALLGEMEIN */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF;
+}
+
+main{width: 100%}
+
+/* Seite 1 */
+#Seite-1{
+    display: flex;
+    align-items: center;
+    margin: 35px;
+    margin-left: 50px;
+    margin-right: 0;
+    padding-right: 0;
+    height: 100vh;
+}
+
+#Seite-1 img, #Seite-1-article-1{
+    display: flex;
+    align-self: stretch;
+}
+
+
+#Seite-1 article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#header-h1 {
+    font-size: 25px;
+    margin-left: 15px; 
+}
+
+#header-h2 {
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: lighter;
+}
+
+#Seite-1-Bilder-Headline{
+    display: inline-block;
+    background: url(/assets/img/ilustracion1.png) center/cover no-repeat;
+    max-width: 55%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#header-h1-2{
+    font-size: 60px;
+    margin-bottom: 3%;
+}
+
+#header-h2-2{
+    font-size: 20px;
+    margin-bottom: 15%;
+    width: 80%;
+    font-weight: lighter;
+}
+
+#header-p{
+    font-size: 12px;
+    font-weight: 700;
+    color: #ff3571;
+}
+
+#Seite-1-Text-Headline{
+    position: absolute;
+    top: 40vh;
+    width: 40%;
+    margin-left: 5%;
+}
+
+/* SEITE 2 */
+#Seite-2 {
+    height: 80vh;
+    background: url(/assets/img/images.jpg) center/cover no-repeat;
+    display: flex;
+    align-self: center;
+}
+
+/* SEITE 3 */
+#Seite-3{
+    height: 80vh;
+    display: flex;
+    align-self: center;
+    margin-top: 20%;
+    margin-left:10%;
+}
+
+#Seite3-article1{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    padding-right: 5%;
+}
+
+#Seite3-article2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#Seite3-article1 p{
+    font-size: 60px;
+    margin-bottom: 3%;
+}
+
+#Seite3-article2 p{
+    font-size: 20px;
+    margin-bottom: 15%;
+    width: 80%;
+    font-weight: lighter;
+    line-height: 35px;
+}
