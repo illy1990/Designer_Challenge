@@ -220,17 +220,86 @@ line-height: 40px;
     display: flex;
     width: 100%;
     flex-direction: row;
+    height: 75%;
+    margin-top: 7.5%;
+    margin-bottom: 15%;
 }
 
 #Seite-7-picture1 img{
     max-width: 60%;
     flex-wrap: wrap;
     margin-left: 10%;
-
+    align-items: center;
 }
 
 #Seite-7-text1 {
     max-width: 40%;
     flex-wrap: wrap;
-
+    margin: 0;
+    padding:0;
+    margin-right: 5%;
+    align-items: center;
 }
+
+#Seite-7-text1 h1{
+    font-size: 100px;
+    color: #dddddd;
+}
+
+#Seite-7-text1 img{
+    height: 75px;
+}
+
+#Seite-7-text1 h2{
+    margin-top: 25px;}
+
+#Seite-7-text1 h3{
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: lighter}
+
+
+/* Seite 8 */
+#Seite-8{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    height: 75%;
+    margin-top: 7.5%;
+    margin-bottom: 15%;
+}
+
+#Seite-8-picture1 img{
+    max-width: 60%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 15%;
+}
+
+#Seite-8-text1 {
+    max-width: 40%;
+    flex-wrap: wrap;
+    margin: 0;
+    padding:0;
+    margin-left: 5%;
+    align-items: center;
+}
+
+#Seite-8-text1 h1{
+    font-size: 100px;
+    color: #dddddd;
+}
+
+#Seite-8-text1 img{
+    height: 75px;
+}
+
+#Seite-8-text1 h2{
+    margin-top: 25px;}
+
+#Seite-8-text1 h3{
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: lighter}
