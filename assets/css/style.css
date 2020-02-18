@@ -63,6 +63,7 @@ main{width: 100%}
 #header-h1-2{
     font-size: 60px;
     margin-bottom: 3%;
+    font-weight: bold;
 }
 
 #header-h2-2{
@@ -118,6 +119,7 @@ main{width: 100%}
 #Seite3-article1 p{
     font-size: 60px;
     margin-bottom: 3%;
+    font-weight: bold;
 }
 
 #Seite3-article2 p{
@@ -126,4 +128,109 @@ main{width: 100%}
     width: 80%;
     font-weight: lighter;
     line-height: 35px;
+}
+
+/* SEITE 4 */
+#Seite-4{
+    height: 80vh;
+    display: flex;
+    align-self: center;
+    margin-left:10%;
+}
+
+#Seite-4 p{
+    font-size: 60px;
+    margin-bottom: 3%;
+    width: 45%;
+    font-weight: bold;
+}
+
+/* SEITE 5 */
+#Seite-5{
+    height: 80vh;
+    display: flex;
+    align-self: center;
+    margin-left:10%;
+}
+
+#Seite-5 article{
+    width: 80%;
+}
+
+
+#Seite-5 article p{
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 9%;
+}
+
+#Seite-5 article p:nth-of-type(1){
+    font-weight: lighter;
+    margin-left: 2.5%;
+}
+
+
+#Seite-5 article p:nth-of-type(2){
+    font-weight: lighter;
+    margin-bottom: 25%;
+    margin-left: 9%;
+    height: 10vh;
+}
+
+#Seite-5-DividerROW1 article{
+    display:flex;
+    flex-wrap: wrap;
+    height: 30vh;}
+
+#Seite-5-DividerROW2 article{
+    display:flex;
+    flex-wrap: wrap;
+    height: 30vh;}
+
+.overkill{
+    margin-left:10px;
+    padding:0;
+}
+
+/* Seite 6 */
+#Seite-6{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#Seite-6 h1{
+    font-size: 60px;
+    margin-bottom: 3%;
+    width: 45%;
+    font-weight: bold;
+}
+
+#Seite-6 h2{
+font-size: 25px;
+margin-left: 15px;
+font-weight: lighter;
+line-height: 40px;
+}
+
+/* Seite 7 */
+#Seite-7{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+#Seite-7-picture1 img{
+    max-width: 60%;
+    flex-wrap: wrap;
+    margin-left: 10%;
+
+}
+
+#Seite-7-text1 {
+    max-width: 40%;
+    flex-wrap: wrap;
+
 }
