@@ -303,3 +303,161 @@ line-height: 40px;
     font-size: 25px;
     line-height: 35px;
     font-weight: lighter}
+
+/* Seite 9 */
+#Seite-9{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 75%;
+    margin-top: 7.5%;
+    margin-bottom: 15%;
+}
+
+#Seite-9-picture1 img{
+    max-width: 60%;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    align-items: center;
+}
+
+#Seite-9-text1 {
+    max-width: 40%;
+    flex-wrap: wrap;
+    margin: 0;
+    padding:0;
+    margin-right: 5%;
+    align-items: center;
+}
+
+#Seite-9-text1 h1{
+    font-size: 100px;
+    color: #dddddd;
+}
+
+#Seite-9-text1 img{
+    height: 75px;
+}
+
+#Seite-9-text1 h2{
+    margin-top: 25px;}
+
+#Seite-9-text1 h3{
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: lighter}
+
+/* Seite 8 */
+#Seite-10{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    height: 75%;
+    margin-top: 7.5%;
+    margin-bottom: 15%;
+}
+
+#Seite-10-picture1 img{
+    max-width: 60%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 15%;
+}
+
+#Seite-10-text1 {
+    max-width: 40%;
+    flex-wrap: wrap;
+    margin: 0;
+    padding:0;
+    margin-left: 5%;
+    align-items: center;
+}
+
+#Seite-10-text1 h1{
+    font-size: 100px;
+    color: #dddddd;
+}
+
+#Seite-10-text1 img{
+    height: 75px;
+}
+
+#Seite-10-text1 h2{
+    margin-top: 25px;}
+
+#Seite-10-text1 h3{
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: lighter}
+
+/* Seite 11 */
+#Seite-11{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#Seite-11 h1{
+    font-size: 60px;
+    margin-bottom: 3%;
+    width: 45%;
+    font-weight: bold;
+}
+
+#Seite-11 h2{
+font-size: 25px;
+margin-left: 15px;
+font-weight: lighter;
+line-height: 40px;
+}
+
+#Seite-11 form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#EMAILADRESS{
+    margin: 35px;
+    padding: 20px 150px;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #0b0c17;
+    opacity: 0.6;
+    border: 0.1 solid #0b0c17;
+    font-size: 25px;
+}
+
+#SUBMITITDAMMIT{
+    width: 50%;
+    background-color:#ff3571;
+    color:#FFF;
+    padding: 20px 0;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+#SUBMITITDAMMIT:hover{
+    width: 50%;
+    background: linear-gradient(90deg, #ff3571, #3C30FF);
+    padding: 20px 0;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+
+/* FOOTER */
+
+footer{
+    font-size: 25px;
+    height: 10vh;
+    font-weight: lighter;
+}
+
+footer p {
+    margin-left: 10%;
+}
